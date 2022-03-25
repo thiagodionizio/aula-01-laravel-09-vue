@@ -17,9 +17,9 @@ DB_PASSWORD=XXXXXXX
 
 ```
 
-#Projeto
+##Projeto
 
-##Passo 1
+###Passo 1
 - Criação de Migrations
 - Criação de Seed
 - Criação de Factory
@@ -34,7 +34,7 @@ php artisan make:factory RoleFactory
 ```
 
 
-##Passo 2
+###Passo 2
 - Rodando migrations
 
 ```
@@ -44,7 +44,7 @@ php artisan migrate:fresh --seed //roda as migrations com as seeds apagando o ba
 
 ```
 
-##Passo 3
+###Passo 3
 - Criando os controller
 
 ```
@@ -54,7 +54,7 @@ php artisan make:controller RolesController --resource
 ```
 
 
-##Passo 4
+###Passo 4
 - Cadastrando as rotas
 
 
@@ -77,11 +77,11 @@ Route::group(['prefix'=>'v1'], function(){
 ```
 
 
-##Passo 5
+###Passo 5
 - Criando as views
 - Criando os componentes em vue
 
 
 
-#**Seja feliz!!!!!**
+##**Seja feliz!!!!!**
 
